@@ -35,12 +35,16 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.5.5",
     "@types/enzyme": "^3.10.3",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "antd": "^3.20.4",
+    "autoprefixer": "^9.6.1",
     "babel-plugin-import": "^1.12.0",
+    "customize-cra": "^0.4.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "postcss-px2rem": "^0.3.0",
     "react-test-renderer": "^16.8.6"
   }
 }
