@@ -1,0 +1,44 @@
+.github-bg {
+  height: 100vh;
+  width: 100vw;
+  background: url('../src/assert/simple-codelines.svg'), #2b3137;
+  display: flex;
+  justify-content: center;
+}
+
+.github-content {
+  width: 1200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-left {
+  flex: 4;
+  height: 503px;
+}
+
+.github-left h1 {
+  font-size: 75px;
+  font-weight: 100px;
+  color: white;
+}
+
+.github-left h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #999;
+}
+
+.github-right {
+  flex: 3;
+  height: 503px;
+}
+
+.github-login {
+  height: 503px;
+  width: 394px;
+  margin-left: 40px;
+  background: white;
+}
