@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './Login.css';
+import { Button } from 'antd';
 
 interface Props {
   name?: string;
@@ -18,7 +19,7 @@ const Login = ({ name = "小狼" }: Props) => {
         </div>
         <div className="github-right">
           <div className="github-login">
-            
+            <Button type="primary">按钮</Button>
           </div>
         </div>
       </div>
